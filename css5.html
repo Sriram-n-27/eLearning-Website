@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+      a.button {
+    background-color: #4CAF50; /* Green */
+    border: 2px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+float: right;
+        }</style>
+    </head>
+<body style="background-image:url('img.jpg');background-size:cover;">
+<pre>
+<div style="background-color:#ccffe6;opacity:0.9;color:black;padding:10px;margin-left:20%;margin-right:20%;margin-bottom: 5px;margin-top:10%;border: 1px black solid;">
+<h1><b>Inline Styles</b></h1>
+<p>An inline style may be used to apply a unique style for a single element.
+To use inline styles, add the style attribute to the relevant element. The style attribute can 
+contain any CSS property.The example below shows how to change the color and the left margin 
+of a h1 element</p>
+<p>If some properties have been defined for the same selector (element) in different style sheets, 
+the value from the last read style sheet will be used. </p>
+<h1>Cascading Order</h1>
+<pre>
+What style will be used when there is more than one style specified for an HTML element?
+Generally speaking we can say that all the styles will "cascade" into a new "virtual" style sheet by 
+the following rules, where number one has the highest priority:
+Inline style (inside an HTML element)
+External and internal style sheets (in the head section)
+Browser default
+So, an inline style (inside a specific HTML element) has the highest priority, which means that it will 
+override a style defined inside the head tag, or in an external style sheet, or a browser default value.</pre>
+ <a href="quizcss.php" class="button">Take Quiz</a>
+</div>
+</pre>
+</body>
+</html>
